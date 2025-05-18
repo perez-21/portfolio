@@ -5,10 +5,7 @@ import {
   Code, 
   Database, 
   Terminal,
-  GitBranch,
-  React,
-  Docker,
-  Postman
+  GitBranch
 } from "lucide-react";
 
 interface SkillCategoryProps {
