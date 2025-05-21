@@ -110,7 +110,7 @@ const Projects = () => {
             
             <Project
               title="Artist Website"
-              description="Scalable real-time messaging backend using websockets. Features include group chats, message persistence, read receipts, and user presence indicators. Handles high concurrency."
+              description="A complete Artist website with a portfolio, gallery, and contact form. Built with React and Tailwind CSS."
               image="img/nenadi.png"
               tech={["Node.js", "React"]}
               githubLink="#"
