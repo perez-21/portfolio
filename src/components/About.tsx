@@ -37,7 +37,7 @@ const About = () => {
             </p>
             
             <p className="text-lg text-muted-foreground">
-              Currently exploring serverless architectures and GraphQL implementations to build more efficient backend solutions.
+              Currently exploring WebSockets for real-time features.
             </p>
           </div>
         </div>

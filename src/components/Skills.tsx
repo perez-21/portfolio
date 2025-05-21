@@ -25,7 +25,7 @@ const SkillCategory = ({ title, icon, skills }: SkillCategoryProps) => {
         {skills.map((skill) => (
           <span 
             key={skill}
-            className="bg-accent px-3 py-1 rounded-full text-sm font-medium text-primary-foreground"
+            className="bg-accent px-3 py-1 rounded-full text-sm font-medium text-black"
           >
             {skill}
           </span>
@@ -87,7 +87,7 @@ const Skills = () => {
             <SkillCategory
               title="Tools & DevOps"
               icon={<Terminal size={24} />}
-              skills={["Git", "Docker", "CI/CD", "Postman", "Vercel", "AWS (Basic)"]}
+              skills={["Git", "Postman"]}
             />
           </div>
         </div>

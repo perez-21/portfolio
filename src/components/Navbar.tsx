@@ -29,7 +29,7 @@ const Navbar = () => {
     <header className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white/90 backdrop-blur-md shadow-sm' : 'bg-transparent'}`}>
       <div className="container mx-auto flex justify-between items-center py-4 px-4 md:px-8">
         <a href="#" className="text-xl font-semibold text-foreground">
-          <span className="text-primary">Dev</span>Portfolio
+          <span className="text-primary">Perez's </span>Portfolio
         </a>
         <nav className="hidden md:flex space-x-8">
           <a onClick={() => scrollToSection('about')} className="text-sm font-medium text-muted-foreground hover:text-foreground cursor-pointer transition-colors">

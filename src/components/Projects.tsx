@@ -85,36 +85,37 @@ const Projects = () => {
 
   return (
     <section id="projects" className="py-24 bg-secondary">
-      <div className="container mx-auto max-w-5xl px-4 md:px-8">
+      <div className="container mx-auto max-w-10xl px-4 md:px-8">
         <div ref={sectionRef} className="reveal">
           <h2 className="text-3xl font-bold mb-8 text-center">Projects</h2>
           
           <div className="flex flex-col gap-12">
             <Project
-              title="API Authentication Service"
-              description="A secure authentication microservice with JWT-based auth, role-based access control, and password reset functionality. Designed for high availability and scalability."
-              image="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
-              tech={["Node.js", "Express", "JWT", "MongoDB", "Docker"]}
-              githubLink="#"
-              liveLink="#"
+              title="Keeper - Password Manager"
+              description="A secure and user-friendly password manager built with React and NestJs. Store, manage, and generate strong passwords for all your online accounts."
+              image="img/keeper.png"
+              tech={["Node.js", "Express", "NestJs", "Postgres"]}
+              githubLink="https://github.com/perez-21/keeper-server"
+              liveLink="https://keeper-password-mgr.vercel.app/"
             />
             
-            <Project
+            {/* <Project
               title="E-commerce Backend"
               description="Complete backend system for e-commerce operations including inventory management, order processing, payment integration, and analytics. Includes comprehensive API documentation."
               image="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
               tech={["Node.js", "Express", "PostgreSQL", "Redis", "Stripe API"]}
               githubLink="#"
               reversed={true}
-            />
+            /> */}
             
             <Project
-              title="Real-time Chat API"
+              title="Artist Website"
               description="Scalable real-time messaging backend using websockets. Features include group chats, message persistence, read receipts, and user presence indicators. Handles high concurrency."
-              image="https://images.unsplash.com/photo-1531297484001-80022131f5a1"
-              tech={["Node.js", "Socket.io", "MongoDB", "Redis", "AWS"]}
+              image="img/nenadi.png"
+              tech={["Node.js", "React"]}
               githubLink="#"
-              liveLink="#"
+              liveLink="https://nenadii-web.vercel.app/"
+              reversed={true}
             />
           </div>
         </div>

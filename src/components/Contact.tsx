@@ -41,7 +41,7 @@ const Contact = () => {
             >
               <Button size="lg" className="gap-2 px-8">
                 <Mail size={18} />
-                your.email@example.com
+                perezjoshua1811@gmail.com
               </Button>
               <p className="text-sm text-muted-foreground">Feel free to reach out for collaborations or just a chat!</p>
             </a>
@@ -49,12 +49,12 @@ const Contact = () => {
           
           <div className="flex justify-center space-x-4">
             <Button variant="outline" size="icon" asChild>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <a href="https://github.com/perez-21/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <Github size={20} />
               </a>
             </Button>
             <Button variant="outline" size="icon" asChild>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/perez-salem-tuwan-084173234/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <Linkedin size={20} />
               </a>
             </Button>
